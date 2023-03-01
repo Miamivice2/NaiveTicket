@@ -9,10 +9,10 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
-public class TicketMachine
+class  TicketMachine
 {
     // The price of a ticket from this machine.
-    private Integer price;
+    private price;
     // The amount of money entered by a customer so far.
     private Integer balance;
     // The total amount of money collected by this machine.
@@ -64,7 +64,7 @@ public class TicketMachine
      */
     public Integer insertMoney(Integer amount)
     {
-        balance = balance + amount;
+        balance +=  amount;
         return balance;
     }
     
